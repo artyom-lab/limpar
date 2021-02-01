@@ -249,6 +249,7 @@ a
 
 .head
 	padding: 10px 40px 11px
+	min-height: 50px
 	background: #FFF
 	border-bottom: 1px solid #dcdcdc
 	@media (max-width: 575.98px)
@@ -291,6 +292,8 @@ h4, .h4
 	font-size: 13px
 .fz-14
 	font-size: 14px
+.fz-18a
+	font-size: 18px
 
 .social-icons
 	a 
@@ -360,7 +363,6 @@ h4, .h4
 .plus-3
 	color: #2c8bf3 !important
 	transform: rotate(45deg)
-
 
 .table-2
 	min-width: 640px
@@ -644,6 +646,12 @@ h4, .h4
 			&:active 
 				background: initial
 
+.dropdown-3
+	.dropdown-menu
+		top: 4px !important
+		&:after 
+			display: none
+
 .table-2 
 	tbody 
 		tr
@@ -801,7 +809,6 @@ h4, .h4
 					background-color: #f8f9fa
 					font-weight: bold
 
-
 .qwert, .selectize-dropdown-content
 	max-height: 306px
 	overflow: auto
@@ -889,3 +896,61 @@ h4, .h4
 				color: #FFF
 				background: #0081ff
 
+// TEAMS
+
+.black 
+	color: #494954
+
+.team-links
+	a 
+		color: #494954
+		display: block
+		padding: 6px 6px
+		&:hover, &.active 
+			opacity: 1
+			background: #FFF
+
+.table-3
+	min-width: 810px
+	margin-bottom: 0 !important
+
+.player
+	padding: 2px 8px 0 30px !important
+	text-align: center
+	@media (max-width: 1199.98px)
+		padding: 2px 8px 0 14px !important
+
+.img-player 
+	max-width: 24px
+	max-height: 36px
+
+.w-12
+	display: inline-block
+	min-width: 12px
+
+.red
+	color: #f42633
+.green
+	color: #1eb100
+
+.form-select
+	.custom-select
+		background: #fff url(../img/arrow.png) no-repeat right 9px center/5px 4px
+		padding-top: 4px
+		padding-bottom: 4px
+		padding-right: 18px
+		height: 30px
+		font-size: 12px
+		color: #929292
+		border-radius: 100px
+		cursor: pointer
+		&:focus 
+			box-shadow: none
+
+.acc 
+	padding: 4px 30px 8px
+	@media (max-width: 1199.98px)
+		padding: 4px 14px 8px
+
+.link-roster
+	color: #0081ff

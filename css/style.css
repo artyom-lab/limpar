@@ -254,6 +254,7 @@ a {
 
 .head {
   padding: 10px 40px 11px;
+  min-height: 50px;
   background: #FFF;
   border-bottom: 1px solid #dcdcdc; }
   @media (max-width: 575.98px) {
@@ -302,6 +303,9 @@ h4, .h4 {
 
 .fz-14 {
   font-size: 14px; }
+
+.fz-18a {
+  font-size: 18px; }
 
 .social-icons a:hover {
   opacity: 0.6; }
@@ -659,6 +663,11 @@ h4, .h4 {
     .dropdown-2 .dropdown-menu .dropdown-item:active {
       background: initial; }
 
+.dropdown-3 .dropdown-menu {
+  top: 4px !important; }
+  .dropdown-3 .dropdown-menu:after {
+    display: none; }
+
 .table-2 tbody tr:nth-last-child(1) .dropdown-2 .dropdown-menu, .table-2 tbody tr:nth-last-child(2) .dropdown-2 .dropdown-menu {
   top: -8px !important; }
   .table-2 tbody tr:nth-last-child(1) .dropdown-2 .dropdown-menu:after, .table-2 tbody tr:nth-last-child(2) .dropdown-2 .dropdown-menu:after {
@@ -885,5 +894,63 @@ h4, .h4 {
     transition: 0.3s;
     color: #FFF;
     background: #0081ff; }
+
+.black {
+  color: #494954; }
+
+.team-links a {
+  color: #494954;
+  display: block;
+  padding: 6px 6px; }
+  .team-links a:hover, .team-links a.active {
+    opacity: 1;
+    background: #FFF; }
+
+.table-3 {
+  min-width: 810px;
+  margin-bottom: 0 !important; }
+
+.player {
+  padding: 2px 8px 0 30px !important;
+  text-align: center; }
+  @media (max-width: 1199.98px) {
+    .player {
+      padding: 2px 8px 0 14px !important; } }
+
+.img-player {
+  max-width: 24px;
+  max-height: 36px; }
+
+.w-12 {
+  display: inline-block;
+  min-width: 12px; }
+
+.red {
+  color: #f42633; }
+
+.green {
+  color: #1eb100; }
+
+.form-select .custom-select {
+  background: #fff url(../img/arrow.png) no-repeat right 9px center/5px 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 18px;
+  height: 30px;
+  font-size: 12px;
+  color: #929292;
+  border-radius: 100px;
+  cursor: pointer; }
+  .form-select .custom-select:focus {
+    box-shadow: none; }
+
+.acc {
+  padding: 4px 30px 8px; }
+  @media (max-width: 1199.98px) {
+    .acc {
+      padding: 4px 14px 8px; } }
+
+.link-roster {
+  color: #0081ff; }
 
 /*# sourceMappingURL=style.css.map */
