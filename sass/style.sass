@@ -803,8 +803,8 @@ h4, .h4
 			border-radius: 0 0 4px 4px
 			padding: 5px
 			.option 
-				padding-left: 20px
-				padding-right: 20px
+				padding-left: 15px
+				padding-right: 15px
 				cursor: pointer
 				&:hover 
 					background-color: #f8f9fa
@@ -899,6 +899,9 @@ h4, .h4
 
 // TEAMS
 
+.fz-0
+	font-size: 0
+
 .black 
 	color: #494954
 
@@ -910,6 +913,14 @@ h4, .h4
 		&:hover, &.active 
 			opacity: 1
 			background: #FFF
+
+.table
+	th, td 
+		vertical-align: middle
+
+.table-teams 
+	@media (max-width: 991.98px)
+		min-width: 800px
 
 .player
 	padding: 2px 8px 0 30px !important
@@ -951,3 +962,54 @@ h4, .h4
 
 .link-roster
 	color: #0081ff
+
+.switch-wrap-men
+	cursor: pointer
+	display: inline-flex
+	.lever
+		position: relative 
+		border-radius: 100px
+		margin-left: 0 !important
+		margin-right: 0 !important
+		height: 16px
+		width: 36px
+		border: 1px solid #f0eeee
+		background-color: #FFF
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, .5) 
+		&:after
+			content: ""
+			position: absolute
+			width: 20px
+			height: 20px
+			margin-top: -10px
+			background-color: #0081ff
+			border-radius: 100px
+			left: 0
+			top: 50%
+			transition: .3s
+	input
+		opacity: 0
+		width: 0
+		height: 0
+		position: absolute
+		&:checked ~ .lever
+			&:after
+				left: 16px
+
+.addresses-refine-teams
+	font-size: 12px
+	&:before 
+		top: 125%
+		left: 30%
+
+.section-teams
+	.row
+		&:last-child
+			.addresses-refine-teams
+				&:before 
+					display: none
+
+.select-beast-team
+	.selectize-input 
+		input
+			font-weight: bold
