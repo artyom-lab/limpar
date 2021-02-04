@@ -1047,6 +1047,7 @@ h4, .h4
 	width: 35px
 	border: 0
 	font-size: 13px
+	margin: auto
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35)
 	&:focus
 		box-shadow: 0px 1px 3px 0px rgba(0,123,255,0.35)
@@ -1076,9 +1077,40 @@ h4, .h4
 		tr:not(:last-child)
 			border-bottom: 1px solid #dcdcdc
 	tr
-		td, th:not(:last-child)
-			border-right: 1px solid #dcdcdc
+		td, th
+			&:not(:last-child)
+				border-right: 1px solid #dcdcdc
 
 .d-1500
 	@media (max-width: 1499.98px)
 		display: none !important
+
+.table-games
+	tr 
+		td, th
+			&:first-child
+				width: 240px
+			&:not(:first-child)
+				text-align: center
+
+.minus
+	font-size: 26px
+
+.shapes
+	position: absolute
+	min-height: 170px
+	width: 310px
+	font-size: 14px
+	background: #fcfcfb
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35)
+	border-radius: 10px
+	top: 22px
+	left: 22px
+	padding: 20px
+	opacity: .98
+	@media (max-width: 575.98px)
+		right: 22px
+		width: auto
+		position: static
+		border-top-left-radius: 0
+		border-top-right-radius: 0
