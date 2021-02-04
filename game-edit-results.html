@@ -220,7 +220,7 @@
 						</div>
 						<div class="block">
 							<a href="#!" class="dashboard teams" data-toggle="collapse" data-target="#collapseThree">Teams</a>
-							<div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+							<div id="collapseThree" class="collapse" data-parent="#accordionExample">
 								<div class="my-2 py-1">
 									<a class="return align-middle black" href="#!"><i class="fas fa-chevron-left align-middle"></i>Back to Search</a>
 									<div class="row align-items-center dashboard-links team-links pt-2">
@@ -235,15 +235,23 @@
 									</div>
 									<div class="row align-items-center dashboard-links team-links">
 										<div class="col">
-											<a href="#!" class="active">Roster</a>
+											<a href="#!" class="">Roster</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="block">
-							<a href="#!" class="dashboard" data-toggle="collapse" data-target="#collapseFour">Geographies</a>
-							<div id="collapseFour" class="collapse" data-parent="#accordionExample">
+							<a href="#!" class="dashboard teams" data-toggle="collapse" data-target="#collapseFour">Games</a>
+							<div id="collapseFour" class="collapse show" data-parent="#accordionExample">
+								<div class="my-2 py-1">
+									<a class="return align-middle black" href="#!"><i class="fas fa-chevron-left align-middle"></i>Back to Search</a>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<a href="#!" class="dashboard" data-toggle="collapse" data-target="#collapseFive">Geographies</a>
+							<div id="collapseFive" class="collapse" data-parent="#accordionExample">
 								<div class="refine fz-13 pb-4">
 									<div class="text-uppercase font-weight-bold mt-4">Refine Geo</div>
 									<div class="row row-2 align-items-center mb-4">
@@ -511,8 +519,8 @@
 							</div>
 						</div>
 						<div class="block">
-							<a href="#!" class="dashboard" data-toggle="collapse" data-target="#collapseFive">Administration</a>
-							<div id="collapseFive" class="collapse" data-parent="#accordionExample">
+							<a href="#!" class="dashboard" data-toggle="collapse" data-target="#collapseSix">Administration</a>
+							<div id="collapseSix" class="collapse" data-parent="#accordionExample">
 							</div>
 						</div>
 					</div>
@@ -523,429 +531,729 @@
 		<section class="section">
 
 			<div class="head">
-				<div class="row align-items-center">
+				<div class="row align-items-center justify-content-between">
 					<div class="col">
-						<div class="d-inline-block">
+						<div class="d-inline-block align-middle">
 							<span class="img-team1 img-team2 mr-0">
 								<img src="img/teams-16.png" alt="">
 							</span>
 							<span class="align-middle d-inline-block font-weight-bold fz-18a ml-1">Indiana Hoosiers</span>
 						</div>
+						<div class="d-inline-block font-weight-bold fz-18a align-middle mx-1">vs</div>
+						<div class="d-inline-block align-middle">
+							<span class="img-team1 img-team2 mr-0">
+								<img src="img/teams-17.png" alt="">
+							</span>
+							<span class="align-middle d-inline-block font-weight-bold fz-18a ml-1">Iowa Hawkeyes</span>
+						</div>
 						<div class="fz-12 gray d-none d-sm-inline-block">
-							<span class="align-middle ml-3">Mens Basketball</span>
-							<span class="align-middle ml-3">Big Ten</span>
-							<span class="align-middle ml-3">9-6 (4-4)</span>
+							<span class="align-middle ml-3">Mens Baseball</span>
 						</div>
 					</div>
-					<div class="col-auto">
-						<div class="social-icons">
-	              <div class="row row-2 justify-content-sm-end">
-	                <div class="col-auto">
-				            <form class="form-inline dropdown dropdown-1">
-				              <button class="btn dropdown-toggle border-shadow" data-toggle="dropdown">Tools</button>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item fz-14">Merge Records</a>
-				                <a href="#!" class="dropdown-item fz-14">Reassign Type/Cat</a>
-				                <a href="#!" class="dropdown-item fz-14">Assign Parent</a>
-				                <a href="#!" class="dropdown-item fz-14">Assign Projects</a>
-				              </div>
-				            </form>
-	                </div>
-	              </div>
-	            </div>
+					<div class="col-4 col-sm-auto">
+						<div class="row row-2">
+							<div class="col-sm">
+								<button class="btn btn-block btn-sm-inline-block btn-primary">Save</button>
+							</div>
+							<div class="col-sm">
+								<button class="btn btn-block btn-outline-danger mt-2 mt-sm-0">Cancel</button>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
 
 			<div class="content">
-				<div class="row align-items-center mb-2">
-					<div class="col col-sm-auto">
-						<h4 class="mb-0 black">Indiana Hoosiers Roster</h4>
+				<div class="cart fz-13 flex-grow-1 border-shadow mb-4">
+					<div class="row justify-content-center">
+						<div class="col-sm-6 text-center fz-12 gray">Thu, Jan 21, 2021 @ Dwane Banks Field - 960 Stadium Dr, Iowa City, IA</div>
 					</div>
-					<div class="col-auto">
-						<form class="form-inline form-select">
-						  <select class="custom-select">
-						    <option selected="">2020-2021</option>
-						    <option value="1">2019-2020</option>
-						    <option value="2">2018-2019</option>
-						    <option value="3">2017-2018</option>
-						  </select>
-						</form>
+					<div class="row row-1 justify-content-center align-items-center my-2">
+						<div class="col-md-10 col-xl-8">
+							<div class="table-responsive">
+								<table class="table table-mini table-borderless">
+									<thead>
+										<tr>
+											<td></td>
+											<td>1</td>
+											<td>2</td>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td>6</td>
+											<td>7</td>
+											<td>8</td>
+											<td>9</td>
+											<th>R</th>
+											<th>H</th>
+											<th>E</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>IU</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<th>
+												<input type="text" class="form-control input-games">
+											</th>
+											<th>
+												<input type="text" class="form-control input-games">
+											</th>
+											<th>
+												<input type="text" class="form-control input-games">
+											</th>
+										</tr>
+										<tr>
+											<td>IOWA</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<td>										
+												<input type="text" class="form-control input-games">
+											</td>
+											<th>
+												<input type="text" class="form-control input-games">
+											</th>
+											<th>
+												<input type="text" class="form-control input-games">
+											</th>
+											<th>
+												<input type="text" class="form-control input-games">
+											</th>
+										</tr>
+									</tbody>
+								</table>
+							</div>					
+						</div>
+						<div class="col-auto mt-3">
+							<a href="#!" class="plus">+</a>
+						</div>
 					</div>
 				</div>
-				<div class="cart cart-2 gray fz-13 flex-grow-1 border-shadow">
+				<div class="cart cart-2 gray fz-13 flex-grow-1 border-shadow mb-4">
+					<div class="acc">
+						<span class="img-team1 img-team2">
+							<img src="img/teams-16.png" alt="">
+						</span>
+						<span class="align-middle font-weight-bold black">Indiana Hoosiers</span>
+					</div>
 					<div class="table-responsive">
 						<table class="table table-2 table-teams table-borderless">
 							<thead>
 								<tr>
-									<th class="player"></th>
 									<th>Name</th>
-									<th>Position</th>
-									<th>Height</th>
-									<th>Weight</th>
-									<th>Class</th>
-									<th>Hometown</th>
-									<th>High School</th>
+									<th>AB</th>
+									<th>R</th>
+									<th>H</th>
+									<th>RBI</th>
+									<th>BB</th>
+									<th>SO</th>
+									<th>LOB</th>
 									<th></th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<th class="player">
-										<img src="img/player1.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Joey Brunk <span class="gray">50</span></a></td>
-									<td>C</td>
-									<td>6’ 11”</td>
-									<td>255 lbs</td>
-									<td>SR <span class="gray">(r)</span></td>
-									<td>Indianapolis, IN</td>
-									<td>Southport</td>
+									<td>
+										<a href="#!" class="align-middle" data-toggle="modal" data-target="#modal">Trayce Jackson-Davis <span class="gray">LF</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player2.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Cooper Bybee <span class="gray">0</span></a></td>
-									<td>G</td>
-									<td>6’ 1”</td>
-									<td>188 lbs</td>
-									<td>SR <span class="gray"></span></td>
-									<td>Elletsville, IN</td>
-									<td>Edgewood</td>
+									<td>
+										<a href="#!" class="align-middle">Race Thompson <span class="gray">CF</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player3.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Nathan Childress <span class="gray">14</span></a></td>
-									<td>F</td>
-									<td>6’ 6”</td>
-									<td>212 lbs</td>
-									<td>SO <span class="gray"></span></td>
-									<td>Zionsville, IN</td>
-									<td>Zionsville</td>
+									<td>
+										<a href="#!" class="align-middle">Armaan Franklin <span class="gray">3B</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player4.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Al Durham <span class="gray">1</span></a></td>
-									<td>G</td>
-									<td>6’ 4”</td>
-									<td>188 lbs</td>
-									<td>SR <span class="gray"></span></td>
-									<td>Liburn, GA</td>
-									<td>Berkmar</td>
+									<td>
+										<a href="#!" class="align-middle">Rob Phinisee <span class="gray">1B</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player5.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Armaan Franklin <span class="gray">2</span></a></td>
-									<td>G</td>
-									<td>6’ 4”</td>
-									<td>195 lbs</td>
-									<td>SO <span class="gray"></span></td>
-									<td>Indianapolis, IN</td>
-									<td>Cathedrall</td>
+									<td>
+										<a href="#!" class="align-middle">Al Durham <span class="gray">C</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player6.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Trey Galloway <span class="gray">32</span></a></td>
-									<td>G</td>
-									<td>6’ 4”</td>
-									<td>210 lbs</td>
-									<td>FR <span class="gray"></span></td>
-									<td>Culver, IN</td>
-									<td>Culver Acadamies</td>
+									<td>
+										<a href="#!" class="align-middle">Jordan Geronimo <span class="gray">RF</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player7.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Jordan Geronimo <span class="gray">22</span></a></td>
-									<td>F</td>
-									<td>6’ 6”</td>
-									<td>220 lbs</td>
-									<td>FR <span class="gray"></span></td>
-									<td>Newark, NJ</td>
-									<td>St. Paul’s</td>
+									<td>
+										<a href="#!" class="align-middle">Jerome Hunter <span class="gray">2B</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Jacquez Hernderson <span class="gray">12</span></a></td>
-									<td>G</td>
-									<td>6’ 2”</td>
-									<td>185 lbs</td>
-									<td>SR <span class="gray"></span></td>
-									<td>Winter Park, FL</td>
-									<td>The Geneva School</td>
+									<td>
+										<a href="#!" class="align-middle">Khristian Lander <span class="gray">SS</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player8.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Jerome Hunter <span class="gray">21</span></a></td>
-									<td>F</td>
-									<td>6’ 7”</td>
-									<td>215 lbs</td>
-									<td>SO <span class="gray">(r)</span></td>
-									<td>Pickerington, OH</td>
-									<td>Pickerington North</td>
+									<td>
+										<a href="#!" class="align-middle">Anthony Leal <span class="gray">P</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player9.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Trayce Jackson-Davis <span class="gray">23</span></a></td>
-									<td>F</td>
-									<td>6’ 9”</td>
-									<td>245 lbs</td>
-									<td>SO <span class="gray"></span></td>
-									<td>Greenwood, IN</td>
-									<td>Center Grove</td>
+									<th>Team</th>
+									<th>38</th>
+									<th>5</th>
+									<th>9</th>
+									<th>5</th>
+									<th>6</th>
+									<th>4</th>
+									<th>4</th>
+									<th></th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="cart cart-2 gray fz-13 flex-grow-1 border-shadow mb-4">
+					<div class="acc">
+						<span class="img-team1 img-team2">
+							<img src="img/teams-17.png" alt="">
+						</span>
+						<span class="align-middle font-weight-bold black">Iowa Hawkeyes</span>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-2 table-teams table-borderless">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>AB</th>
+									<th>R</th>
+									<th>H</th>
+									<th>RBI</th>
+									<th>BB</th>
+									<th>SO</th>
+									<th>LOB</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<a href="#!" class="align-middle">Luka Garza  <span class="gray">2B</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player10.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Khristian Lander <span class="gray">4</span></a></td>
-									<td>G</td>
-									<td>6’ 2”</td>
-									<td>185 lbs</td>
-									<td>FR <span class="gray"></span></td>
-									<td>Evansville, IN</td>
-									<td>FJ Reitz</td>
+									<td>
+										<a href="#!" class="align-middle">Joe Wisecamp <span class="gray">LF</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player11.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Anthony Leal <span class="gray">3</span></a></td>
-									<td>G</td>
-									<td>6’ 5”</td>
-									<td>210 lbs</td>
-									<td>FR <span class="gray"></span></td>
-									<td>Bloomington, IN</td>
-									<td>Bloomington South</td>
+									<td>
+										<a href="#!" class="align-middle">CJ Frederick <span class="gray">1B</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player12.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Rob Phinisee <span class="gray">10</span></a></td>
-									<td>G</td>
-									<td>6’ 1”</td>
-									<td>187 lbs</td>
-									<td>JR <span class="gray"></span></td>
-									<td>Lafayette, IN</td>
-									<td>McCutcheon</td>
+									<td>
+										<a href="#!" class="align-middle">CJ Frederick <span class="gray">3B</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player13.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Sebastien Scott <span class="gray">15</span></a></td>
-									<td>G</td>
-									<td>6’ 2”</td>
-									<td>185 lbs</td>
-									<td>FR <span class="gray"></span></td>
-									<td>Danville, CA</td>
-									<td>San Ramon Valley</td>
+									<td>
+										<a href="#!" class="align-middle">Keegan Murray <span class="gray">RF</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player14.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Michael Shipp <span class="gray">5</span></a></td>
-									<td>G</td>
-									<td>6’ 3”</td>
-									<td>190 lbs</td>
-									<td>SO <span class="gray"></span></td>
-									<td>Cincinnati, OH</td>
-									<td>Moeller</td>
+									<td>
+										<a href="#!" class="align-middle">Kris Murray <span class="gray">LF</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player15.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Parker Stewart <span class="gray">45</span></a></td>
-									<td>G</td>
-									<td>6’ 5”</td>
-									<td>210 lbs</td>
-									<td>JR <span class="gray">(r)</span></td>
-									<td>Union City, TN</td>
-									<td>Union City</td>
+									<td>
+										<a href="#!" class="align-middle">Patrick McCaffery <span class="gray">CF</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
 									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="player">
-										<img src="img/player16.jpg" class="img-player" alt="" width="24">
-									</th>
-									<td><a href="#!" class="align-middle">Race Thompson <span class="gray">25</span></a></td>
-									<td>F</td>
-									<td>6’ 8”</td>
-									<td>228 lbs</td>
-									<td>JR <span class="gray">(r)</span></td>
-									<td>Plymouth, MN</td>
-									<td>Armstrong</td>
-									<td class="text-right text-nowrap">
-										<div class="dropdown dropdown-2">
-											<a href="#!" class="three-points dropdown-toggle" data-toggle="dropdown">•••</a>
-				              <div class="dropdown-menu dropdown-menu-right">
-				                <a href="#!" class="dropdown-item">Edit</a>
-				                <a href="#!" class="dropdown-item">Delete</a>
-				              </div>
-										</div>
+									<td>
+										<a href="#!" class="align-middle">Jack Nunge <span class="gray">SS</span></a>
 									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td class="text-right text-nowrap">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#!" class="align-middle">Tony Perkins <span class="gray">P</span></a>
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td>
+										<input type="text" class="form-control input-games">
+									</td>
+									<td class="text-right text-nowrap">
+									</td>
+								</tr>
+								<tr>
+									<th>Team</th>
+									<th>38</th>
+									<th>2</th>
+									<th>11</th>
+									<th>2</th>
+									<th>1</th>
+									<th>5</th>
+									<th>10</th>
+									<th></th>
 								</tr>
 							</tbody>
 						</table>
@@ -955,6 +1263,80 @@
 
 		</section>
 		
+		<div class="modal fade" id="modal" tabindex="-1">
+		  <div class="modal-dialog modal-370 modal-dialog-centered">
+		    <div class="modal-content">
+		      <div class="modal-header border-0">
+						<div class="title">Edit Trayce Jackson-Davis Game Stats</div>
+		      </div>
+		      <div class="modal-body py-0">
+						<div class="row align-items-center">
+							<div class="col-6 fz-13 font-weight-bold">
+								<div>At Bats (AB)</div>
+							</div>
+							<div class="col-4 col-sm-3">
+	              <input type="text" class="form-control mb-2">
+							</div>
+						</div>
+						<div class="row align-items-center">
+							<div class="col-6 fz-13 font-weight-bold">
+								<div>Runs (R)</div>
+							</div>
+							<div class="col-4 col-sm-3">
+	              <input type="text" class="form-control mb-2">
+							</div>
+						</div>
+						<div class="row align-items-center">
+							<div class="col-6 fz-13 font-weight-bold">
+								<div>Hits (H)</div>
+							</div>
+							<div class="col-4 col-sm-3">
+	              <input type="text" class="form-control mb-2">
+							</div>
+						</div>
+						<div class="row align-items-center">
+							<div class="col-6 fz-13 font-weight-bold">
+								<div>Runs Batted In (RBI)</div>
+							</div>
+							<div class="col-4 col-sm-3">
+	              <input type="text" class="form-control mb-2">
+							</div>
+						</div>
+						<div class="row align-items-center">
+							<div class="col-6 fz-13 font-weight-bold">
+								<div>Base on Balls (BB)</div>
+							</div>
+							<div class="col-4 col-sm-3">
+	              <input type="text" class="form-control mb-2">
+							</div>
+						</div>
+						<div class="row align-items-center">
+							<div class="col-6 fz-13 font-weight-bold">
+								<div>Strikeouts (SO)</div>
+							</div>
+							<div class="col-4 col-sm-3">
+	              <input type="text" class="form-control mb-2">
+							</div>
+						</div>
+						<div class="row align-items-center">
+							<div class="col-6 fz-13 font-weight-bold">
+								<div>Left on Base (LOB)</div>
+							</div>
+							<div class="col-4 col-sm-3">
+	              <input type="text" class="form-control mb-2">
+							</div>
+						</div>
+						<div class="row align-items-center mt-3">
+							<div class="col">
+				        <button class="btn btn-primary mr-2">Save</button>
+				        <button class="btn btn-outline-danger mr-auto" data-dismiss="modal">Cancel</button>
+							</div>
+						</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

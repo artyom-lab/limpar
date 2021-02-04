@@ -880,6 +880,8 @@ h4, .h4
 .section 
 	flex-grow: 1
 	max-width: 100%
+	@media (min-width: 992px)
+		width: calc(100% - 280px)
 
 .table-4 
 	input[type="radio"]
@@ -901,6 +903,8 @@ h4, .h4
 
 .fz-0
 	font-size: 0
+.fz-24
+	font-size: 24px
 
 .black 
 	color: #494954
@@ -947,6 +951,11 @@ h4, .h4
 	width: 21px
 	height: 21px
 	line-height: 21px
+
+.img-team3
+	width: 38px
+	height: 38px
+	line-height: 38px
 
 .w-12
 	display: inline-block
@@ -1029,3 +1038,47 @@ h4, .h4
 	.selectize-input 
 		input
 			font-weight: bold
+
+.modal-370
+	max-width: 370px
+
+.input-games
+	height: 24px
+	width: 35px
+	border: 0
+	font-size: 13px
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.35)
+	&:focus
+		box-shadow: 0px 1px 3px 0px rgba(0,123,255,0.35)
+
+.row-1
+	margin-left: -8px
+	margin-right: -8px
+	> [class*="col"]
+		padding-left: 8px
+		padding-right: 8px
+
+.table-mini
+	margin-bottom: 0 !important
+	text-align: center
+	thead
+		font-size: 10px
+		th, td
+			padding: 2px 12px
+			border-bottom: 0
+		td 
+			color: #7d7d8e
+	tbody
+		th, td
+			padding: 3px 
+			.input-games
+				margin: auto
+		tr:not(:last-child)
+			border-bottom: 1px solid #dcdcdc
+	tr
+		td, th:not(:last-child)
+			border-right: 1px solid #dcdcdc
+
+.d-1500
+	@media (max-width: 1499.98px)
+		display: none !important
