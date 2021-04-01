@@ -1114,3 +1114,34 @@ h4, .h4
 		position: static
 		border-top-left-radius: 0
 		border-top-right-radius: 0
+
+.scroll-block
+	max-height: 204px
+	overflow: auto
+	padding-right: 16px
+	&::-webkit-scrollbar
+		width: 4px
+		height: 4px
+	&::-webkit-scrollbar-track
+		background-color: transparent
+		border-radius: 2px
+	&::-webkit-scrollbar-thumb
+		background-color: #F1F1F6
+		border-radius: 2px
+
+.bl-1
+	@media (min-width: 576px)
+		border-left: 1px solid #d5d5d5
+
+.form-select-2
+	.custom-select
+		width: 100%
+		background: #fff url(../img/arrow-black.png) no-repeat right 9px center/6px 5px
+		padding-top: 2px
+		padding-bottom: 2px
+		padding-right: 18px
+		height: 32px
+		font-size: 13px
+		cursor: pointer
+		&:focus 
+			box-shadow: none

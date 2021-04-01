@@ -1102,4 +1102,34 @@ h4, .h4 {
       border-top-left-radius: 0;
       border-top-right-radius: 0; } }
 
+.scroll-block {
+  max-height: 204px;
+  overflow: auto;
+  padding-right: 16px; }
+  .scroll-block::-webkit-scrollbar {
+    width: 4px;
+    height: 4px; }
+  .scroll-block::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 2px; }
+  .scroll-block::-webkit-scrollbar-thumb {
+    background-color: #F1F1F6;
+    border-radius: 2px; }
+
+@media (min-width: 576px) {
+  .bl-1 {
+    border-left: 1px solid #d5d5d5; } }
+
+.form-select-2 .custom-select {
+  width: 100%;
+  background: #fff url(../img/arrow-black.png) no-repeat right 9px center/6px 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 18px;
+  height: 32px;
+  font-size: 13px;
+  cursor: pointer; }
+  .form-select-2 .custom-select:focus {
+    box-shadow: none; }
+
 /*# sourceMappingURL=style.css.map */

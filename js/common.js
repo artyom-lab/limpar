@@ -32,7 +32,21 @@ $(document).ready(function() {
 	  }
 	});
 
-	demo1
+	var demo2 = new DragonDrop(document.getElementById('demo-2'), {
+	  handle: '.handle',
+	  announcement: {
+	    grabbed: function (el) { return el.querySelector('span').innerText + ' grabbed'; },
+	    dropped: function (el) { return el.querySelector('span').innerText + ' dropped'; },
+	    reorder: function (el, items) {
+	      var pos = items.indexOf(el) + 1;
+	      var text = el.querySelector('span').innerText;
+	      return 'The rankings have been updated, ' + text + ' is now ranked #' + pos + ' of ' + items.length;
+	    },
+	    cancel: function() { return 'Reranking cancelled.'; }
+	  }
+	});
+
+	demo1, demo2
 	  .on('grabbed', function (container, item) { console.log('grabbed: ', item); })
 	  .on('dropped', function (container, item) { console.log('dropped: ', item); })
 	  .on('reorder', function (container, item) { console.log('reorder: ', item); })
